@@ -42,8 +42,8 @@ app.get("/", (req, res) => {
 });
 
 // Routes
-app.use("/api/products", productRoutes);
-app.use("/api/users", usersRoutes);
-app.use("/api/auth", authRoutes);
+app.use("/products", productRoutes);
+app.use("/users", usersRoutes);
+app.use("/auth", authRoutes);
 
 export default app;
