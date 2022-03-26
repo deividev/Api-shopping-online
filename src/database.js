@@ -6,10 +6,10 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
-    auth: {
-      user: 'david',
-      password: 'test1895',
-    },
+    // auth: {
+    //   user: 'david',
+    //   password: 'test1895',
+    // },
   })
   .then((db) => console.log(`DB is connected`))
   .catch((err) => console.log(err));
