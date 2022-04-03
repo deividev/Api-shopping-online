@@ -22,7 +22,7 @@ app.set("json spaces", 4);
 
 // Middlewares
 const corsOptions = {
-  origin: 'https://api-shopping-online.herokuapp.com/',
+  //origin: 'https://api-shopping-online.herokuapp.com/',
   // origin: "http://localhost:3000",
 };
 app.use(cors(corsOptions));
